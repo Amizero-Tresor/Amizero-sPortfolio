@@ -1,6 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+
+
+
 .mainframe
 {
-    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
 
 }
 .upload{
@@ -10,3 +18,90 @@
     height: 2rem;
 
 }
+.sidebar{
+    position: fixed;
+    background-color: red;
+    width: 12%;
+    height: 100%;
+}
+ .intro{
+     /* position: fixed; */
+     background-color: blue;
+     height: 20%;
+     width: 88%;
+     margin-left: 12%;
+ }
+ .cards{
+     background-color: aliceblue;
+     width: 88%;
+     margin-left: 12%;
+     height: 80%;
+     display: flex;
+     flex-direction: column;
+     overflow: auto; 
+     -ms-overflow-style: none;  
+     scrollbar-width: none;
+
+     
+ }
+ .cards::-webkit-scrollbar {
+    display: none;
+  }
+ .first{
+     display: flex;
+     margin: 2rem 1rem 0 2rem;  
+     
+ }
+ .first h1{
+    font-family: 'Lato', sans-serif;
+
+ }
+ .first button{
+     margin-left: 80rem;
+     color: black;
+     background-color: rgb(69, 218, 114);
+     border: none;
+     border-radius: 15px;
+     width: 186px;
+    height: 48px;
+    
+
+
+ }
+
+ .cards-in-group{
+     display: flex;
+     flex-wrap:wrap;
+ }
+  .one-card{
+      display: flex;
+      flex-direction: column;
+      background: white;
+      width: 332px;
+      margin-top: 3rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25); margin-left: 2rem;
+      border-radius: 15px;
+
+      
+  }
+   .one-card img{
+       border-radius: 0;
+       width: 90%;
+       margin-top: 1rem;
+
+   }
+   .one-card p{
+       margin-left: 7rem;
+       margin-bottom: 1rem;
+       
+   }
+    .one-card button{
+        width: 130px;
+        height: 45px;
+        margin-left: 10rem;
+        margin-bottom: 1rem;
+        color: white;
+        background: #2F2F2F;
+        border-radius: 10px;
+
+    }
