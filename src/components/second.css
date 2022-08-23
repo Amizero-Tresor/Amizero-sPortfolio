@@ -24,8 +24,8 @@
      flex-direction: column;
     border: 1px solid #fff; 
     border-radius: 3rem;
-    height: 65%;
-    width: 70%;
+    height: 70%;
+    width: 65%;
     /* top: 20%;  */
     background-color: white;
     
@@ -41,8 +41,9 @@
     }
 .entry{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 3rem;
+
 }
 .specialinput{
     width: 90%;
@@ -127,44 +128,23 @@ label{
  .bus{
      display: flex;
      flex-direction: row;
-     margin-top: 4rem;
-     /* margin:10rem; */
-     /* margin:10rem; */
+     margin-top: 3rem;
+     /* margin:10rem;    */
 
 
- }
- .new{
-     display: flex;
-     margin-top: 1rem;
- }
- .new1{
-     display: flex;
-     margin-top: 1rem;
-     margin-left: 20rem;
- }
- .new1 img{
-     width: 30px ;
-     height: 30px;
-     border-radius: 0;
- }
-
- .new img{
-     width: 50px;
-     height: 50px;
  }
  .generateNow{
-     width:12rem;
+     /* width:6rem; */
      height: 2rem;
      border: none;
      border-radius:5px;
      color: white;
      background-color: rgb(0, 132, 255);
-     /* margin-right: 1rem; */
+     margin-right: 1rem;    
      font-weight: 600; 
-     /* margin-top: 5rem; */
  }
  .forLater{
-    width: 8rem;
+    width: 6rem;
     height: 2rem;
     border: none;
     border-radius:5px;
@@ -185,7 +165,9 @@ label{
     
 
 }
-.bicalendar{
-    size: 100px;
-    left: 10%;
-}
+.new img{
+     width: 30px;
+     height: 30px;
+     border-radius: 0;
+     
+ }
