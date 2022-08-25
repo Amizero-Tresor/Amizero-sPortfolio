@@ -1,6 +1,6 @@
 import React from 'react'
 import './ShoePopup.css'
-import demon from '../../img/demon.jpg'
+import demon from '../img/demon.jpg'
 
  
  function ShoePopup(props){

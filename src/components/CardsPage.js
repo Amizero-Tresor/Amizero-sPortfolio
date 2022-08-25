@@ -1,6 +1,6 @@
 import React from "react";
 import './cardsPage.css'
-import HF  from '../../img/HF.jpg'
+import HF  from '../img/HF.jpg'
 //import  sidebar
 //import   the first components
 

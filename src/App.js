@@ -4,17 +4,20 @@ import Second from './components/Second'
 import {useState} from 'react'
 import ShoePopup from './components/ShoePopup';
 import CardsPage from './components/CardsPage';
-// import CardsPage from './components/CardsPage';
+
+
 
 const App = () => {
    const [buttonPopup, setButtonPopup]= useState(false);
    const [ShoePopupButton, setShoePopup]= useState(false);
    const [SecondPopup, setSecondPopup]= useState(false);
    const [CardsPageButton , setcardsPageButton] = useState(false);
+  
    
 
   return (
-    <div className='main'>  
+    
+      <div className='main'>  
       
       <h1>React Popups</h1>
       <br></br>
@@ -22,6 +25,10 @@ const App = () => {
       <button onClick={()=>{setShoePopup(true)}}>Open Shoe Popup</button>
       <button onClick={()=>{setSecondPopup(true)}}>Open Second Popup</button>
       <button onClick={()=>{setcardsPageButton(true)}}>Open The Cards Page</button>
+     
+     
+      
+   
 
   
        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
@@ -36,13 +43,14 @@ const App = () => {
           <h3>My second</h3>
         </Second>
         <CardsPage trigger={CardsPageButton} setTrigger={setcardsPageButton}>
-            <h5>MY new BUtton</h5>
+            <h5>MY new Button</h5>
         </CardsPage>
-          
-          {/* <CardsPage/> */}
-
+        
     </div>
+  
+   
   )
+    
 }
 
 

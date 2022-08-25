@@ -1,7 +1,7 @@
 import React from "react";
 import './Popup.css'
-import OIP from '../../img/OIP.jpg'
-import AD from '../../img/AD.jpg'
+import OIP from '../img/OIP.jpg'
+import AD from '../img/AD.jpg'
 
 function Popup(props) {
   return props.trigger ? (
