@@ -1,5 +1,4 @@
-import React from "react";
-import './Popup.css'
+import './Popup.scoped.css'
 import OIP from '../img/OIP.jpg'
 import AD from '../img/AD.jpg'
 
@@ -22,7 +21,7 @@ function Popup(props) {
                 placeholder="Phone Number(Optional)"
               />
             </div>
-            <div className="entry">
+            <div className="specialentry">
               <div className="upload">
                 <input type="text" name="title" placeholder="Upload Logo *" />
                 <button className="btn-browse">Browse Image</button>
@@ -32,7 +31,7 @@ function Popup(props) {
                 <img src={OIP} alt="" />
               </div>
             </div>
-            <div className="entry">
+            <div className="specialentry">
               <div className="upload">
                 <input type="text" name="title" placeholder="Upload Logo *" />
                 <button className="btn-browse">Browse Image</button>

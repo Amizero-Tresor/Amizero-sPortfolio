@@ -1,17 +1,17 @@
 import React from 'react'
-import 'Desktop9.css'
+import 'Desktop9.scoped.css'
 import image18 from '../img/image18.png'
 import Chart from './Chart'
 import {TiUserAdd} from 'react-icons/ti'
 import {AiFillHeart} from 'react-icons/ai'
 
-const Desktop9 =()=> {
+const Desktop9 = ()=> {
   return (
     <div className="main-frame">
     <div className="pop-up">
         <div className="first-one">
-            <p>Post Title:fasdasdfs</p>
-            <img src={image18} alt="">
+            <p>Post Title</p>
+            <img src={image18} alt=""></img>
             <p>Caption: We are what we design for the world</p>
 
         </div>
@@ -35,11 +35,12 @@ const Desktop9 =()=> {
                     <AiFillHeart/>
                 
             </div>
-    </div>
+            </div>
+        </div>
 
-
     </div>
-  )
+    </div>
+  );
     
 }
-export default Desktop9
+export default Desktop9 

@@ -24,14 +24,14 @@
      flex-direction: column;
     border: 1px solid #fff; 
     border-radius: 3rem;
-    height: 65%;
+    height: 75%;
     width: 70%;
-    /* top: 20%;  */
+  
     background-color: white;
     
 }
     .up h1{
-        margin: 20px;
+        margin: 2rem 0 1rem 2rem;
         color: rgb(78, 23, 78);
         font-size: 24;
         font-weight: 500;
@@ -41,11 +41,18 @@
     }
 .entry{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 3rem;
+    width: 33rem;
+}
+.specialentry{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 33rem;
 }
 .specialinput{
-    width: 90%;
+    /* width: 90%; */
     height:3rem;
     border:none;
     border-bottom: 1px solid rgb(83, 4, 83);
@@ -56,8 +63,9 @@
 }
 
 input{
-    width: 90%;
+   
     height:3rem;
+    width: 33rem;
     border:none;
     border-bottom: 1px solid rgb(83, 4, 83);
     color:rgb(39, 30, 39);
@@ -72,14 +80,14 @@ label{
      display: flex;
      width: 50%;
      flex-direction: column;
-     margin-top: 2rem;
+     margin-top: 1rem;
      margin-left: 2rem;
 
  }
  .form2{
      display: flex;
      flex-direction: column;
-     margin-top: 2rem;
+     margin-top: 1rem;
      margin-right: 1rem;
      margin-left: 2rem;
      width: 50%;
@@ -87,16 +95,18 @@ label{
 .upload{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width:33rem;
+    background-color: transparent;
 
 }
 ::placeholder{
-    color: rgb(66, 4, 66);
+    color: #271E4A;
+    opacity: 0.8;
     font-weight:300;
     size: 16px;
 }
 .upload button{
-    background-color: rgb(79, 250, 170);
+    background-color: #79CFA6;
     color: white;
     width: 7rem;
     font-weight: 600;
@@ -113,9 +123,9 @@ label{
  }
 
  .maincolor{
-     color: rgb(58, 85, 104);
-     font-weight: 500;
-     background-color: rgb(108, 128, 141);
+     color: rgba(0, 0, 0, 0.5);
+     font-weight: 400;
+     background-color: #9CA5B2;
      border: none;
      border-radius: 10px;
      width: 12rem;
@@ -127,30 +137,23 @@ label{
  .bus{
      display: flex;
      flex-direction: row;
-     margin-top: 4rem;
-     /* margin:10rem; */
-     /* margin:10rem; */
-
-
+     margin-top: 1rem;
  }
  .new{
      display: flex;
-     margin-top: 1rem;
+     margin-top: 1.5rem;
  }
  .new1{
      display: flex;
      margin-top: 1rem;
      margin-left: 20rem;
  }
- .new1 img{
-     width: 30px ;
-     height: 30px;
-     border-radius: 0;
- }
+ 
 
- .new img{
-     width: 50px;
-     height: 50px;
+ .new img , .new1 img {
+     width: 1.5rem;
+     height: 1.5rem;
+     margin-left: 1rem;
  }
  .generateNow{
      width:12rem;
@@ -158,18 +161,18 @@ label{
      border: none;
      border-radius:5px;
      color: white;
-     background-color: rgb(0, 132, 255);
-     /* margin-right: 1rem; */
+     background-color: #1D8CFB;
+      margin-right: 1rem; 
      font-weight: 600; 
-     /* margin-top: 5rem; */
+
  }
- .forLater{
+  .forLater{
     width: 8rem;
     height: 2rem;
     border: none;
     border-radius:5px;
     color: white;
-    background-color: rgb(58, 204, 94);
+    background-color:#19D16F;
     font-weight: 600;
 
 }
@@ -188,4 +191,4 @@ label{
 .bicalendar{
     size: 100px;
     left: 10%;
-}
+} 

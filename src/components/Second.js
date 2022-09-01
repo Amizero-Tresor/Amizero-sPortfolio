@@ -1,5 +1,4 @@
-import React from 'react'
-import './second.css'
+import './second.scoped.css'
 
 function Second(props) {   
 

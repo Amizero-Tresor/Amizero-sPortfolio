@@ -1,5 +1,5 @@
 import React from 'react'
-import './ShoePopup.css'
+import './ShoePopup.scoped.css'
 import demon from '../img/demon.jpg'
 
  

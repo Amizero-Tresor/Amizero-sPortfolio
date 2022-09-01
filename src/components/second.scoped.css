@@ -89,6 +89,7 @@ label{
     display: flex;
     flex-direction: row;
     width: 90%;
+    background-color: transparent;
 
 }
 ::placeholder{
@@ -103,8 +104,8 @@ label{
     font-weight: 600;
     border: none;
     height: 2rem;
-    margin-top: 15px;
-    right: 8;
+    margin-top: 1rem;
+    /* right: 8; */
 
     
 }
@@ -134,7 +135,7 @@ label{
 
  }
  .generateNow{
-     /* width:6rem; */
+     width:6rem;
      height: 2rem;
      border: none;
      border-radius:5px;
