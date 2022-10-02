@@ -87,17 +87,71 @@ body , button , input, textarea{
         color: (--title-color);
         font-weight: var(--font-semi-bold);
     }
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+        cursor: pointer;
+        border: none;
+        outline: none;
+
+    }
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.section{
+    padding: 6rem 0 2rem;
 
+}
+.section__title{
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+}
+.section__subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 4rem;
+
+
+}
+.section__title, .section__subtitle{
+    align-items: center;
+
+}
 /*=============== LAYOUT ===============*/
-
+.container{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
 
 /*=============== BUTTONS ===============*/
+.button{
+    display: inline-block;
+    background-position: var(--title-color);
+    color: var(--container-color);
+    padding: 1.25rem 2rem ;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
 
+}
+
+.button:hover{
+    background-color: var(--title-color-dark);
+}
 
 
 
