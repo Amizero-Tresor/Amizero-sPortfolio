@@ -26,6 +26,7 @@
 
 }
 
+/* hhhh */
 
 .nav__link{
     display: flex;
@@ -42,7 +43,7 @@
 
 .active__link ,  .nav__link:hover{
     color: var(--title-color-dark);
-    
+
 }
 .nav__icon,
 .nav__close ,  .nav__toggle{
