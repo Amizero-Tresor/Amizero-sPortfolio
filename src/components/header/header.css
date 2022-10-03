@@ -25,7 +25,23 @@
     column-gap: 2rem;
 
 }
+
+
+.nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: .3s;
+
+}
+/*Active LInk*/
+
+.nav__icon,
 .nav__close ,  .nav__toggle{
     display: none; 
+
 
 }
