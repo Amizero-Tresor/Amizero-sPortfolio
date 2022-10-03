@@ -8,7 +8,7 @@ import Header from './components/header/Header'
 
 const App = () => {
 return (
-    <div clasn>
+    <div className='universal'>
         <Header/>
     </div>
 )
