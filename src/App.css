@@ -107,6 +107,10 @@ img{
 .universal{
     position: center;
     align-items: center;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+
 }
 
 
