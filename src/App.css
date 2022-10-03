@@ -50,10 +50,7 @@
   --z-modal: 1000;
 }
 
-.hello {
-    height: 100vh;
-    background-color: red;
-}
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
