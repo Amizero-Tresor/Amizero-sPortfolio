@@ -4,6 +4,7 @@ import './header.css'
 const Header = () => {
   return (
     <header>
+    
       <nav className="nav container">
         <a href="index.html" className="nav__logo">Smith</a>
 

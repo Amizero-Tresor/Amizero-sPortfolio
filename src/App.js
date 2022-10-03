@@ -9,7 +9,8 @@ import Header from './components/header/Header'
 const App = () => {
 
     <div>
-        <Header/>
+        <h1>hczvd</h1>
+        {/* <Header/> */}
     </div>
    
 }
