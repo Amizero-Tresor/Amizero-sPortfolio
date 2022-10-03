@@ -3,7 +3,7 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <nav className="nav container">
         <a href="index.html" className="nav__logo">Smith</a>
 
@@ -52,7 +52,7 @@ const Header = () => {
 
                 <li className="nav__item">
                     <a href="#contact" className="nav__link">
-                        <i className="uil uil- nav__icon">
+                        <i className="uil uil-message nav__icon">
                             
                         </i>  Contact
                     </a>
@@ -62,7 +62,7 @@ const Header = () => {
             
         </div>
       </nav>
-    </div>
+    </header>
   )
 }
 
