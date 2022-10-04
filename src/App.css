@@ -75,7 +75,7 @@ html{
     scroll-behavior: smooth;
 }
 body , button , input, textarea{
-    font-family: var(--body-color);
+    font-family: var(--body-font);
     font-size: var(--normal-font-size);
 }
 
