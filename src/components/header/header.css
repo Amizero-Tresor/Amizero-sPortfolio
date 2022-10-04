@@ -71,10 +71,22 @@
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow:  ;
+    box-shadow:   0 -1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1,5rem 1.5re, 0 0;
+    transition: .3s;
 
 
   }
+  .nav__list{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2rem;
+
+  }
+ .nav__icon{
+    
+ }
+
   .nav__icon , .nav__close , .nav__toggle{
     display: block;
   }
